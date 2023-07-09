@@ -7,22 +7,22 @@ class Userprofile extends Component{
           <div className="user-profile">
             <div className="username-dt">
               <div className="usr-pic">
-                <img src="./images/saroj-pic.jpeg" alt="" />
+                <img src="./images/4.gif" alt="" />
               </div>
             </div>
             <div className="user-specs">
-              <h3>Saroj Shakya</h3>
+              <h3>Sarad  Shrestha</h3>
               <span>Research Head</span>
             </div>
           </div>
           <ul className="user-fw-status">
             <li>
               <h4>Following</h4>
-              <span>34</span>
+              <span>104</span>
             </li>
             <li>
               <h4>Followers</h4>
-              <span>155</span>
+              <span>1.3k</span>
             </li>
             <li>
               <a href="./my-profile.html" title="">View Profile</a>

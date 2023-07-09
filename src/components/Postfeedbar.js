@@ -5,10 +5,10 @@ class Postfeedbar extends Component{
         <div className="post-bar">
 <div className="post_topbar">
 <div className="usy-dt">
-<img src="./images/saroj-pic.jpeg" alt="" />
+<img src="./images/5.jpg" alt="" />
 <div className="usy-name">
-<h3>Saroj Shakya</h3>
-<span>3 min ago</span>
+<h3>Nischal shakhya</h3>
+<span>just now</span>
 </div>
 </div>
 <div className="ed-opts">
@@ -44,7 +44,7 @@ className="ed-opts-open"
 </li>
 <li>
 <img src="./images/icon9.png" alt="" /><span
-  >India</span
+  >Kathmandu</span
 >
 </li>
 </ul>
@@ -62,28 +62,26 @@ className="ed-opts-open"
 </ul>
 </div>
 <div className="job_descp">
-<h3>Senior Wordpress Developer</h3>
+<h3>Mobile Application Developer</h3>
 <ul className="job-dt">
 <li>
 <a href="./index.html#" title="">Full Time</a>
 </li>
-<li><span>$30 / hr</span></li>
+<li><span>$40 / hr</span></li>
 </ul>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing
-elit. Aliquam luctus hendrerit metus, ut ullamcorper
-quam finibus at. Etiam id magna sit amet...
+Like web application development, mobile application development has its roots in more traditional software development. One critical difference, however, is that mobile apps are often written specifically to take advantage of the unique features of a particular mobile device. For example, a gaming app might be written to take advantage of the iPhone's accelerometer or a mobile health app might be written to take advantage of a smartwatch's temperature sensor....
 <a href="./index.html#" title="">view more</a>
 </p>
 <ul className="skill-tags">
-<li><a href="./index.html#" title="">HTML</a></li>
+<li><a href="./index.html#" title="">Andriod Studio</a></li>
 <li><a href="./index.html#" title="">PHP</a></li>
-<li><a href="./index.html#" title="">CSS</a></li>
+<li><a href="./index.html#" title="">Python</a></li>
 <li>
 <a href="./index.html#" title="">Javascript</a>
 </li>
 <li>
-<a href="./index.html#" title="">Wordpress</a>
+<a href="./index.html#" title="">Flutter</a>
 </li>
 </ul>
 </div>
@@ -94,17 +92,17 @@ quam finibus at. Etiam id magna sit amet...
   ><i className="fas fa-heart"></i> Like</a
 >
 <img src="./images/liked-img.png" alt="" />
-<span>25</span>
+<span>43</span>
 </li>
 <li>
 <a href="./index.html#" className="com"
   ><i className="fas fa-comment-alt"></i> Comment
-  15</a
+  19</a
 >
 </li>
 </ul>
 <a href="./index.html#"
-><i className="fas fa-eye"></i>Views 50</a
+><i className="fas fa-eye"></i>Views 89</a
 >
 </div>
 </div>
@@ -786,10 +784,10 @@ quam finibus at. Etiam id magna sit amet...
           <div className="post-bar">
             <div className="post_topbar">
               <div className="usy-dt">
-                <img src="./images/saroj-pic.jpeg" alt="" />
+                <img src="./images/2.gif" alt="" />
                 <div className="usy-name">
-                  <h3>Saroj Shakya</h3>
-                  <span>3 min ago</span>
+                  <h3>Dhirendra Shah</h3>
+                  <span>10 min ago</span>
                 </div>
               </div>
               <div className="ed-opts">
@@ -820,12 +818,12 @@ quam finibus at. Etiam id magna sit amet...
               <ul className="descp">
                 <li>
                   <img src="./images/icon8.png" alt="" /><span
-                    >Epic Coder</span
+                    >Epic Editer</span
                   >
                 </li>
                 <li>
                   <img src="./images/icon9.png" alt="" /><span
-                    >India</span
+                    >Lalitpur</span
                   >
                 </li>
               </ul>
@@ -843,28 +841,27 @@ quam finibus at. Etiam id magna sit amet...
               </ul>
             </div>
             <div className="job_descp">
-              <h3>Senior Wordpress Developer</h3>
+              <h3>Graphic Designer</h3>
               <ul className="job-dt">
                 <li>
                   <a href="./index.html#" title="">Full Time</a>
                 </li>
-                <li><span>$30 / hr</span></li>
+                <li><span>$35 / hr</span></li>
               </ul>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Aliquam luctus hendrerit metus, ut ullamcorper
-                quam finibus at. Etiam id magna sit amet...
+                LGraphic designers create visual communications such as adverts, branding, publicity materials and magazine layouts.
+                Graphic designers (who may also be known as graphic artists) utilise graphic design skills to create media products such as magazines, labels, advertising and signage....
                 <a href="./index.html#" title="">view more</a>
               </p>
               <ul className="skill-tags">
-                <li><a href="./index.html#" title="">HTML</a></li>
-                <li><a href="./index.html#" title="">PHP</a></li>
-                <li><a href="./index.html#" title="">CSS</a></li>
+                <li><a href="./index.html#" title="">After Effect</a></li>
+                <li><a href="./index.html#" title="">Davinci</a></li>
+                <li><a href="./index.html#" title="">InDesign</a></li>
                 <li>
-                  <a href="./index.html#" title="">Javascript</a>
+                  <a href="./index.html#" title="">Adobe Photoshop</a>
                 </li>
                 <li>
-                  <a href="./index.html#" title="">Wordpress</a>
+                  <a href="./index.html#" title=""> Illustrator</a>
                 </li>
               </ul>
             </div>
@@ -875,17 +872,17 @@ quam finibus at. Etiam id magna sit amet...
                     ><i className="fas fa-heart"></i> Like</a
                   >
                   <img src="./images/liked-img.png" alt="" />
-                  <span>25</span>
+                  <span>70</span>
                 </li>
                 <li>
                   <a href="./index.html#" className="com"
                     ><i className="fas fa-comment-alt"></i> Comment
-                    15</a
+                    35</a
                   >
                 </li>
               </ul>
               <a href="./index.html#"
-                ><i className="fas fa-eye"></i>Views 50</a
+                ><i className="fas fa-eye"></i>Views 112</a
               >
             </div>
           </div>
@@ -894,12 +891,12 @@ quam finibus at. Etiam id magna sit amet...
               <div className="post_topbar">
                 <div className="usy-dt">
                   <img
-                    src="./images/saroj-pic.jpeg"
+                    src="./images/3.jpg"
                     alt=""
                   />
                   <div className="usy-name">
-                    <h3>Saroj Shakya</h3>
-                    <span>3 min ago</span>
+                    <h3>Bum Kaji</h3>
+                    <span>1 hrs ago</span>
                   </div>
                 </div>
                 <div className="ed-opts">
@@ -937,7 +934,7 @@ quam finibus at. Etiam id magna sit amet...
                   </li>
                   <li>
                     <img src="./images/icon9.png" alt="" /><span
-                      >India</span
+                      >Bhaktapur</span
                     >
                   </li>
                 </ul>
@@ -963,13 +960,10 @@ quam finibus at. Etiam id magna sit amet...
                   <li>
                     <a href="./index.html#" title="">Full Time</a>
                   </li>
-                  <li><span>$30 / hr</span></li>
+                  <li><span>$40 / hr</span></li>
                 </ul>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Aliquam luctus hendrerit metus, ut
-                  ullamcorper quam finibus at. Etiam id magna sit
-                  amet...
+                A web developer’s job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website’s performance and capacity. ...
                   <a href="./index.html#" title="">view more</a>
                 </p>
                 <ul className="skill-tags">
@@ -991,17 +985,17 @@ quam finibus at. Etiam id magna sit amet...
                       ><i className="fas fa-heart"></i> Like</a
                     >
                     <img src="./images/liked-img.png" alt="" />
-                    <span>25</span>
+                    <span>145</span>
                   </li>
                   <li>
                     <a href="./index.html#" className="com"
                       ><i className="fas fa-comment-alt"></i> Comment
-                      15</a
+                      78</a
                     >
                   </li>
                 </ul>
                 <a href="./index.html#"
-                  ><i className="fas fa-eye"></i>Views 50</a
+                  ><i className="fas fa-eye"></i>Views 200</a
                 >
               </div>
             </div>
