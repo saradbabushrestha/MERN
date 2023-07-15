@@ -1,28 +1,32 @@
 import { Component } from "react";
+
+
 class Userprofile extends Component{
     render()
     {
+      //const user= this.props.user;
+      const {user}=this.props;
         return   <div className="main-left-sidebar no-margin">
         <div className="user-data full-width">
           <div className="user-profile">
             <div className="username-dt">
               <div className="usr-pic">
-                <img src="./images/4.gif" alt="" />
+                <img src={"./images/" + user.username + ".gif"} alt="" />
               </div>
             </div>
             <div className="user-specs">
-              <h3>Sarad  Shrestha</h3>
-              <span>Research Head</span>
+              <h3>{user.fullname}</h3>
+              <span>{user.title}</span>
             </div>
           </div>
           <ul className="user-fw-status">
             <li>
               <h4>Following</h4>
-              <span>104</span>
+              <span>{user.following.length}</span>
             </li>
             <li>
               <h4>Followers</h4>
-              <span>1.3k</span>
+              <span>{user.follower.length}</span>
             </li>
             <li>
               <a href="./my-profile.html" title="">View Profile</a>

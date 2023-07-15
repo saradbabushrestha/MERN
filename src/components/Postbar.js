@@ -2,9 +2,10 @@ import { Component } from "react";
 class Postbar extends Component{
     render()
     {
+      const {user}=this.props;
         return     <div className="post-topbar">
         <div className="user-picy">
-          <img src="./images/4.gif" alt="" />
+        <img src={"./images/" + user.username + ".gif"} alt="" />
         </div>
         <div className="post-st">
           <ul>
@@ -13,8 +14,8 @@ class Postbar extends Component{
                 className="post-jb active"
                 href="./index.html#"
                 title=""
-                >Post a Job</a
-              >
+                >Post a Job</a>
+              
             </li>
           </ul>
         </div>

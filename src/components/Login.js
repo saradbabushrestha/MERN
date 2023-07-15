@@ -11,7 +11,7 @@ class Login extends Component {
                 <div className="cmp-info">
                   <div className="cm-logo">
                     <img
-                      src="images/lec.png"
+                      src="images/logo2.png"
                       alt=""
                       style={{ width: "100px" }}
                     />
@@ -21,7 +21,7 @@ class Login extends Component {
                       connect and collaborate remotely
                     </p>
                   </div>
-                  <img src="images/lec-full.png" alt="" />
+                  <img src="images/logo2.png" alt="" />
                 </div>
               </div>
               <div className="col-lg-7">
