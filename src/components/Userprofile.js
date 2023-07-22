@@ -2,6 +2,24 @@ import { Component } from "react";
 
 
 class Userprofile extends Component{
+  constructor() {
+    super();
+    this.state = {
+      user: {},
+    };
+  }
+
+  componentDidMount() {
+    const that = this;
+    fetch("http://localhost:5001/api/v1/user")
+      .then((resp) => resp.json())
+      .then((data) => {
+        that.setState({ user: data });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
     render()
     {
       //const user= this.props.user;
