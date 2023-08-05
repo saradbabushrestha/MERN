@@ -5,54 +5,23 @@ import Postbar from "./Postbar";
 import Postfeedbar from "./Postfeedbar";
 import TagSection from "./TagSection";
 
-const user =
-{
-  email:"test@test.com",
-  username:"sarad",
-  fullname:"Sarad Shrestha",
-  title: "Software Developer",
-  skills:["JS","PHP","JAVA"],
-  address:"Kathmandu,Nepal",
-  job_type:"Full Time",
-  id: 1,
-  is_active: true,
-  follower:["username123","usernamme234","username543"],
-  following:["username123","usernamme234","username543","user555"]
 
-};
 class Home extends Component {
-  constructor(){
-    super();
-    this.state= {
-      user:[],
+  constructor(props) {
+    super(props);
+    this.state = {
+      user: {},
     };
   }
-
-  componentDidMount(){
-    const that = this;
+  componentDidMount() {
     fetch("http://localhost:5001/api/v1/user")
       .then((resp) => resp.json())
       .then((data) => {
-        that.setState({ user: data });
+        this.setState({ user: data });
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
-    
-    fetch("http://localhost:5001/api/v1/user",{
-      method: "POST",
-      headers: {
-        "Content-Type":"application/json"
-      },
-    })
-      .then((resp) => resp.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-
   }
     render() {
       const user ={...this.state.user};
