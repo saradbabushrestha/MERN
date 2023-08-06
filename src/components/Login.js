@@ -1,21 +1,25 @@
 import { Component } from "react";
 
-
 class Login extends Component {
-  handleSigninClick(evey){
+  constructor() {
+    super();
+    this.handleSigninClick = this.handleSigninClick.bind(this);
+  }
+
+  handleSigninClick(evet) {
     const formElem = document.getElementById("login-form");
     // get value from input field
     const username = formElem.querySelector("#username").value;
     const password = formElem.querySelector("#password").value;
 
     if (!username || !password) {
-     
-      document.querySelector("#err").innerHTML = "username or password not entered";
+      document.querySelector("#err").innerHTML =
+        "username or password not entered";
       return;
     }
     // clear err msg
     document.querySelector("#err").innerHTML = "";
-   //call bs api user create api
+    //call bs api user create api
     fetch("http://localhost:5001/api/v1/login", {
       method: "POST",
       headers: {
@@ -28,15 +32,12 @@ class Login extends Component {
     })
       .then((resp) => resp.json())
       .then((data) => {
-
         console.log("Created new user", data);
-        if(data.error)
-        {
+        if (data.error) {
           document.querySelector("#err").innerHTML = data.error;
-
+        } else {
+          this.props.loginUser(data.data);
         }
-      
-       
       })
       .catch((err) => {
         document.querySelector("#err").innerHTML = err.message;
@@ -44,7 +45,6 @@ class Login extends Component {
       });
   }
 
-  
   handleSignUpClick(evnt) {
     const formElem = document.getElementById("signup-form");
     const username = formElem.querySelector("#signin-username").value;
@@ -84,15 +84,12 @@ class Login extends Component {
     })
       .then((resp) => resp.json())
       .then((data) => {
-
         console.log("Created new user", data);
-        if(data.error)
-        {
+        if (data.error) {
           document.querySelector("#err").innerHTML = data.error;
-
+        } else {
+          document.querySelector("#err").innerHTML = "Sign-up Sucessfull";
         }
-      
-       
       })
       .catch((err) => {
         document.querySelector("#err").innerHTML = err.message;
@@ -174,7 +171,11 @@ class Login extends Component {
                           </div>
                         </div>
                         <div className="col-lg-12">
-                          <button type="button" value="submit" onClick={this.handleSigninClick}>
+                          <button
+                            type="button"
+                            value="submit"
+                            onClick={this.handleSigninClick}
+                          >
                             Sign in
                           </button>
                         </div>

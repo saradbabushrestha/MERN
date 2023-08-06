@@ -14,8 +14,7 @@ class TagSection extends Component{
           </li>
           <li>
             <a href="./index.html#" title=""
-              >Community Guidelines</a
-            >
+              >Community Guidelines</a>
           </li>
           <li>
             <a href="./index.html#" title="">Cookies Policy</a>
